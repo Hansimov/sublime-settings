@@ -1,0 +1,18 @@
+[
+    {"keys": ["ctrl+insert"], "command": "exec", "args": {"kill": true} },
+    {"keys": ["alt+s"], "command": "toggle_side_bar" },
+    {"keys": ["alt+f11"], "command": "toggle_menu" },
+    // {"keys": ["f5"], "command": "build"},
+    {"keys" :["shift+escape"], "command" : "show_panel" , "args" : {"panel": "output.exec"}},
+    {"keys": ["ctrl+\\"], "command": "reindent", "args": {"single_line": false}},
+    { "keys": ["ctrl+alt+f"], "command": "js_format", "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}] 
+    },
+    { "keys": ["alt+equals"], "command": "jump_forward" },
+    { "keys": ["alt+g"], "command": "google_search" },
+    { "keys": ["alt+f"], "command": "open_dir","args": {"dir": "$file_path", "file": "$file_name"} },
+    { "keys": ["alt+e"], "command": "expand_selection", "args": {"to": "scope"} },
+    { "keys": ["`"], "command": "insert", "args": {"characters": "`"}, "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex" }]},
+    { "keys": ["alt+up"], "command": "swap_line_up" },
+    { "keys": ["alt+down"], "command": "swap_line_down" },
+    { "keys": ["alt+d"], "command": "duplicate_line" },
+]

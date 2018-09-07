@@ -1,0 +1,21 @@
+{
+	"anaconda_linting": false,
+	"auto_complete": true,
+	"auto_complete_delay": 50,
+	"auto_complete_selector": true,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"expand_tabs_on_save": true,
+	"font_size": 14,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"show_errors_inline": true,
+	"show_panel_on_build": false,
+	"tab_completion": true,
+	"tab_size": 4,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": true
+}
