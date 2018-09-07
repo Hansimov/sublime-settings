@@ -5,7 +5,9 @@
 	],
 	"installed_packages":
 	[
+		"Colorsublime",
 		"Hide Menu",
+		"PackageResourceViewer",
 		"SideBarEnhancements"
 	]
 }
