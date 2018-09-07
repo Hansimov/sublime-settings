@@ -6,6 +6,7 @@
 	"color_scheme": "Packages/Colorsublime - Themes/Adventure_Time.tmTheme",
 	"expand_tabs_on_save": true,
 	"font_size": 14,
+	"font_face":"YaHei Consolas Hybrid",
 	"highlight_line": true,
 	"ignored_packages":
 	[

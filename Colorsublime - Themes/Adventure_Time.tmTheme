@@ -44,10 +44,9 @@
 			<dict>
 				<key>foreground</key>
 				<string>#008800</string>
-<!-- 				
 				<key>fontStyle</key>
-				<string>italic</string>
--->			</dict>
+				<string>bold</string>
+			</dict>
 		</dict>
 		<!-- String scope -->
 		<dict>
@@ -58,7 +57,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7FD6FA</string>
+				<string>#7fd6fa</string>
 			</dict>
 		</dict>
 		<dict>
@@ -524,7 +523,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#404449</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
