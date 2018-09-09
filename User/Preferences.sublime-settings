@@ -1,16 +1,15 @@
 {
 	"anaconda_linting": false,
 	"auto_complete": true,
+	"auto_complete_commit_on_tab": true,
 	"auto_complete_delay": 50,
 	"auto_complete_selector": true,
 	"color_scheme": "Packages/Colorsublime - Themes/Adventure_Time.tmTheme",
-	"expand_tabs_on_save": true,
-	"font_size": 14,
-	// "font_face":"Consolas",
-	// "font_face":"YaHei Consolas Hybrid",
-	"font_face":"Consolas-with-Yahei",
-	// "font_options": ["gdi"],
 	"copy_with_empty_selection": false,
+	"draw_white_space": "all",
+	"expand_tabs_on_save": true,
+	"font_face": "Consolas-with-Yahei",
+	"font_size": 16,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -22,5 +21,6 @@
 	"tab_size": 4,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?＜＞（）［］｛｝「」『』〈〉《》【】‘’“”＂＋－＊／，。、．‧・･·﹣：；～！？＠＃＄％︿＆｜＝",
 	"word_wrap": true
 }

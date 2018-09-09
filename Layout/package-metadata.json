@@ -1,0 +1,1 @@
+{"sublime_text": ">=3000", "url": "https://github.com/loggerhead/Layout", "platforms": ["*"], "version": "0.1.2", "dependencies": [], "description": "A powerful plugin to split window like tmux for Sublime Text 3."}

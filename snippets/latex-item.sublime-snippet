@@ -1,0 +1,9 @@
+<snippet>
+    <description>latex-item</description>
+    <content>
+<![CDATA[
+\item 
+]]></content>
+    <tabTrigger>i</tabTrigger>
+    <scope>text.tex</scope>
+</snippet>

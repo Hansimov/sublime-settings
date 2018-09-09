@@ -6,7 +6,10 @@
 	"installed_packages":
 	[
 		"Colorsublime",
+		"Extract Sublime Package",
 		"Hide Menu",
+		"IMESupport",
+		"Layout",
 		"Package Control",
 		"PackageResourceViewer",
 		"SideBarEnhancements"

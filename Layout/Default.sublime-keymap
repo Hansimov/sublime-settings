@@ -1,0 +1,38 @@
+[
+    // { "keys": ["shift+alt+q"], "command": "save_layout_as", "args": {"filename": "_last"} },
+    // { "keys": ["shift+alt+S"], "command": "save_layout_as" },
+    // { "keys": ["shift+alt+o"], "command": "load_layout_from", "args": {"filename": "_last"} },
+
+    { "keys": ["shift+alt+left"], "command": "move_to_pane", "args": {"direction": "left"} },
+    { "keys": ["shift+alt+right"], "command": "move_to_pane", "args": {"direction": "right"} },
+    { "keys": ["shift+alt+up"], "command": "move_to_pane", "args": {"direction": "up"} },
+    { "keys": ["shift+alt+down"], "command": "move_to_pane", "args": {"direction": "down"} },
+    // { "keys": ["shift+alt+tab"], "command": "cycle_between_panes"},
+    { "keys": ["shift+alt+backquote"], "command": "reverse_cycle_between_panes"},
+
+    { "keys": ["shift+alt+z"], "command": "undo_move_to_pane" },
+    { "keys": ["shift+alt+y"], "command": "redo_move_to_pane" },
+    { "keys": ["shift+alt+x"], "command": "destroy_current_pane" },
+
+    { "keys": ["shift+alt+["], "command": "split_pane", "args": {"commands": ["v"]} },
+    { "keys": ["shift+alt+]"], "command": "split_pane", "args": {"commands": ["h"]} },
+    // { "keys": ["shift+alt+q"], "command": "combine_all_panes" },
+    // { "keys": ["shift+alt+u"], "command": "split_pane", "args": {"commands": ["V"]} },
+    // { "keys": ["shift+alt+e"], "command": "split_pane", "args": {"commands": ["V", "1H"]} },
+    // { "keys": ["shift+alt+r"], "command": "split_pane", "args": {"commands": ["H70", "0V50", "2V50"]} },
+
+    { "keys": ["shift+alt+,"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
+    { "keys": ["shift+alt+."], "command": "carry_file_to_pane", "args": {"direction": "right"} },
+    { "keys": ["shift+alt+i"], "command": "carry_file_to_pane", "args": {"direction": "up"} },
+    { "keys": ["shift+alt+k"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
+
+    { "keys": ["shift+alt+a"], "command": "clone_file_to_pane", "args": {"direction": "left"} },
+    { "keys": ["shift+alt+d"], "command": "clone_file_to_pane", "args": {"direction": "right"} },
+    { "keys": ["shift+alt+w"], "command": "clone_file_to_pane", "args": {"direction": "up"} },
+    { "keys": ["shift+alt+s"], "command": "clone_file_to_pane", "args": {"direction": "down"} },
+
+    { "keys": ["shift+alt+f"], "command": "resize_pane", "args": {"direction": "left", "step": 1} },
+    { "keys": ["shift+alt+h"], "command": "resize_pane", "args": {"direction": "right", "step": 1} },
+    { "keys": ["shift+alt+t"], "command": "resize_pane", "args": {"direction": "up", "step": 1} },
+    { "keys": ["shift+alt+g"], "command": "resize_pane", "args": {"direction": "down", "step": 1} },
+]
