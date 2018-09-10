@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[\tikz]]></content>
+<tabTrigger>tk</tabTrigger>
+<scope>text.tex</scope>
+<description>tex: tikz-tikz</description>
+</snippet>

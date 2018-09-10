@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[\begin{document}
+
+$0
+
+\end{document}]]></content>
+<tabTrigger>doc</tabTrigger>
+<scope>text.tex</scope>
+<description>tex: begin-document</description>
+</snippet>

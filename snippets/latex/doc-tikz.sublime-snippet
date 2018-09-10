@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[\documentclass[border=10pt]{standalone}
+
+\usepackage{tikz}
+
+\begin{document}
+
+$0
+
+\end{document}]]></content>
+<tabTrigger>tdoc</tabTrigger>
+<scope>text.tex</scope>
+<description>tex: doc-tikz</description>
+</snippet>

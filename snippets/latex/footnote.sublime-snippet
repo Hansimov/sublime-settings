@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[\footnote{$0}]]></content>
+<tabTrigger>fn</tabTrigger>
+<scope>text.tex</scope>
+<description>tex: footnote</description>
+</snippet>

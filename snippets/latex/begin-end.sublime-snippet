@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[\begin{$0}
+
+\end{$0}]]></content>
+<tabTrigger>be</tabTrigger>
+<scope>text.tex</scope>
+<description>tex: begin-end</description>
+</snippet>

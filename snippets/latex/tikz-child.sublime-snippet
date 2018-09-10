@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[child]]></content>
+<tabTrigger>c</tabTrigger>
+<scope>text.tex</scope>
+<description>tex: tikz-child</description>
+</snippet>

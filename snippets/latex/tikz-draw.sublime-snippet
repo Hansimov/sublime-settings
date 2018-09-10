@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[\draw]]></content>
+<tabTrigger>dr</tabTrigger>
+<scope>text.tex</scope>
+<description>tex: tikz-draw</description>
+</snippet>

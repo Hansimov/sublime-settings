@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[node]]></content>
+<tabTrigger>nd</tabTrigger>
+<scope>text.tex</scope>
+<description>tex: tikz-node</description>
+</snippet>

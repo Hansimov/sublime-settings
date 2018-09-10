@@ -16,7 +16,7 @@
 		"Vintage"
 	],
 	"show_errors_inline": true,
-	"show_panel_on_build": false,
+	// "show_panel_on_build": false,
 	"tab_completion": true,
 	"tab_size": 4,
 	"theme": "Adaptive.sublime-theme",

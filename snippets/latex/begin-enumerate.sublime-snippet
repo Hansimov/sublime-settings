@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[\begin{enumerate}
+    \item $0
+\end{enumerate}]]></content>
+<tabTrigger>en</tabTrigger>
+<scope>text.tex</scope>
+<description>tex: begin-enumerate</description>
+</snippet>

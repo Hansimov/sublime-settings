@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[\centering]]></content>
+<tabTrigger>cen</tabTrigger>
+<scope>text.tex</scope>
+<description>tex: centering</description>
+</snippet>

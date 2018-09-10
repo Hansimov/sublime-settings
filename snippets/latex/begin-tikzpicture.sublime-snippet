@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[\begin{tikzpicture}
+
+$0
+
+\end{tikzpicture}]]></content>
+<tabTrigger>tp</tabTrigger>
+<scope>text.tex</scope>
+<description>tex: begin-tikzpicture</description>
+</snippet>
