@@ -16,4 +16,6 @@
     { "keys": ["alt+down"], "command": "swap_line_down" },
     { "keys": ["alt+d"], "command": "duplicate_line" },
     { "keys": ["alt+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["alt+f"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+    { "keys": ["ctrl+y"], "command": "redo" },
 ]
