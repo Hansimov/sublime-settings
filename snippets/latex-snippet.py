@@ -35,11 +35,14 @@ tex_key_list = [
     ['usetikzlibrary',      'ut',     '\\usetikzlibrary{$0}'],
     ['begin-tikzpicture',   'tp',     '\\begin{tikzpicture}\n\n$0\n\n\\end{tikzpicture}'],
     ['doc-tikz',            'tdoc',   '\\documentclass[border=10pt]{standalone}\n\n\\usepackage{tikz}\n\n\\begin{document}\n\n$0\n\n\\end{document}'],
-    ['tikz-draw',           'dr',     '\\draw'],
-    ['tikz-node',           'n',      '\\node'],
+    ['tikz-draw',           'd',     '\\draw '],
+    ['tikz-node',           'n',      '\\node '],
     ['tikz-node',           'nd',     'node'],
     ['tikz-child',          'c',     'child'],
-    ['tikz-tikz',           'tk',     '\\tikz']
+    ['tikz-tikz',           'tk',     '\\tikz'],
+
+    ['text',                'tt',     '\\text{$0}'],
+    ['frac',                'fc',     '\\frac{$1}{$0}'],
 
 ]
 

@@ -6,10 +6,11 @@
 	"auto_complete_selector": true,
 	"color_scheme": "Packages/Colorsublime - Themes/Adventure_Time.tmTheme",
 	"copy_with_empty_selection": false,
+	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_white_space": "all",
 	"expand_tabs_on_save": true,
 	"font_face": "Consolas-with-Yahei",
-	"font_size": 16,
+	"font_size": 15,
 	"highlight_line": true,
 	"ignored_packages":
 	[
