@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\begin{$0}]]></content>
+<content><![CDATA[begin{$0}]]></content>
 <tabTrigger>b</tabTrigger>
 <scope>text.tex</scope>
 <description>tex: begin</description>

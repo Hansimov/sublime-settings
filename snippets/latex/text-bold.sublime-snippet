@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\textbf{$0}]]></content>
+<content><![CDATA[textbf{$0}]]></content>
 <tabTrigger>tb</tabTrigger>
 <scope>text.tex</scope>
 <description>tex: text-bold</description>

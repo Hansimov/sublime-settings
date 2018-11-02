@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\vspace{$0}]]></content>
+<content><![CDATA[vspace{$0}]]></content>
 <tabTrigger>vs</tabTrigger>
 <scope>text.tex</scope>
 <description>tex: vspace</description>

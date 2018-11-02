@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\usepackage{$0}]]></content>
+<content><![CDATA[usepackage{$0}]]></content>
 <tabTrigger>up</tabTrigger>
 <scope>text.tex</scope>
 <description>tex: usepackage</description>

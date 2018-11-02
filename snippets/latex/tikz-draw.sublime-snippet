@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\draw ]]></content>
+<content><![CDATA[draw ]]></content>
 <tabTrigger>d</tabTrigger>
 <scope>text.tex</scope>
 <description>tex: tikz-draw</description>

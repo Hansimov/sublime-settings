@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\documentclass[border=10pt]{standalone}
+<content><![CDATA[documentclass[border=10pt]{standalone}
 
 \usepackage{tikz}
 

@@ -1,6 +1,6 @@
 [
-    {"keys": ["ctrl+insert"], "command": "exec", "args": {"kill": true} },
     {"keys": ["ctrl+pause"], "command": "exec", "args": {"kill": true} },
+    {"keys": ["ctrl+f11"], "command": "exec", "args": {"kill": true} },
     {"keys": ["alt+s"], "command": "toggle_side_bar" },
     {"keys": ["alt+f11"], "command": "toggle_menu" },
     // {"keys": ["f5"], "command": "build"},

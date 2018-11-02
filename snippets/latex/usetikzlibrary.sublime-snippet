@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\usetikzlibrary{$0}]]></content>
+<content><![CDATA[usetikzlibrary{$0}]]></content>
 <tabTrigger>ut</tabTrigger>
 <scope>text.tex</scope>
 <description>tex: usetikzlibrary</description>

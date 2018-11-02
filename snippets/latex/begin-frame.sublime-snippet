@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\begin{frame}
+<content><![CDATA[begin{frame}
 $0
 \end{frame}]]></content>
 <tabTrigger>fr</tabTrigger>

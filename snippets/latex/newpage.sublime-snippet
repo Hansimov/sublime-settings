@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\newpage]]></content>
+<content><![CDATA[newpage]]></content>
 <tabTrigger>np</tabTrigger>
 <scope>text.tex</scope>
 <description>tex: newpage</description>

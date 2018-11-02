@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\begin{enumerate}
+<content><![CDATA[begin{enumerate}
     \item $0
 \end{enumerate}]]></content>
 <tabTrigger>en</tabTrigger>

@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\frac{$1}{$0}]]></content>
+<content><![CDATA[frac{$1}{$0}]]></content>
 <tabTrigger>fc</tabTrigger>
 <scope>text.tex</scope>
 <description>tex: frac</description>

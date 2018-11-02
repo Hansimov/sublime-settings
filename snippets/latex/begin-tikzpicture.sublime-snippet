@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\begin{tikzpicture}
+<content><![CDATA[begin{tikzpicture}
 
 $0
 

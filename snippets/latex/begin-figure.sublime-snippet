@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\begin{figure}[htbp]
+<content><![CDATA[begin{figure}[htbp]
 $0
 \end{figure}]]></content>
 <tabTrigger>fg</tabTrigger>

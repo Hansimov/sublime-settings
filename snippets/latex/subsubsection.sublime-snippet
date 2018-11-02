@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\subsubsection{$0}]]></content>
+<content><![CDATA[subsubsection{$0}]]></content>
 <tabTrigger>sssec</tabTrigger>
 <scope>text.tex</scope>
 <description>tex: subsubsection</description>

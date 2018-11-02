@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\documentclass{$0}]]></content>
+<content><![CDATA[documentclass{$0}]]></content>
 <tabTrigger>dc</tabTrigger>
 <scope>text.tex</scope>
 <description>tex: documentclass</description>

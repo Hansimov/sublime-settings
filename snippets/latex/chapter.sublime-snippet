@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\chapter{$0}]]></content>
+<content><![CDATA[chapter{$0}]]></content>
 <tabTrigger>chap</tabTrigger>
 <scope>text.tex</scope>
 <description>tex: chapter</description>

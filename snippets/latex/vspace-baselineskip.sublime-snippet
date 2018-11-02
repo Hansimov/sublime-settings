@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\vspace{0.5\baselineskip}]]></content>
+<content><![CDATA[vspace{0.5\baselineskip}]]></content>
 <tabTrigger>vsb</tabTrigger>
 <scope>text.tex</scope>
 <description>tex: vspace-baselineskip</description>
