@@ -1,0 +1,4 @@
+{
+    "selector": "source.bat",
+    "shell_cmd": [".\\$file_base_name.bat"],
+}

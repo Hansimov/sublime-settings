@@ -1,0 +1,31 @@
+{
+    "selector": "text.tex",
+    "shell_cmd": "pdflatex -shell-escape -interaction=batchmode -aux-directory=latex-temp $file_base_name.tex",
+    "variants":
+    [
+        {   "name": "pdflatex - precompile",
+            "shell_cmd": "etex -initialize -jobname=\"$file_base_name\" \"&pdflatex\" \"mylatexformat.ltx\" $file_base_name.tex",
+        },
+        {   "name": "pdflatex - precompile + batchmode + .fmt",
+            "shell_cmd": "etex -initialize -jobname=\"$file_base_name\" \"&pdflatex\" \"mylatexformat.ltx\" $file_base_name.tex & pdflatex -shell-escape -interaction=batchmode -aux-directory=latex-temp \"&$file_base_name\" $file_base_name.tex",
+        },
+        {   "name": "pdflatex - batch mode + .fmt",
+            "shell_cmd": "pdflatex -shell-escape -interaction=batchmode -aux-directory=latex-temp \"&$file_base_name\" $file_base_name.tex",
+        },
+        {   "name": "pdflatex - batch mode",
+            "shell_cmd": "pdflatex -shell-escape -interaction=batchmode -aux-directory=latex-temp $file_base_name.tex",
+        },
+        {   "name": "pdflatex - normal mode + .fmt",
+            "shell_cmd": "pdflatex -shell-escape -aux-directory=latex-temp \"&$file_base_name\" $file_base_name.tex",
+        },
+        {   "name": "pdflatex - normal mode",
+            "shell_cmd": "pdflatex -shell-escape -aux-directory=latex-temp $file_base_name.tex",
+        },
+        {   "name": "xelatex - normal mode",
+            "shell_cmd": "xelatex -aux-directory=latex-temp $file_base_name.tex",
+        },
+        {   "name": "xelatex - batch mode",
+            "shell_cmd": "xelatex -aux-directory=latex-temp -interaction=batchmode $file_base_name.tex",
+        },
+    ]
+}

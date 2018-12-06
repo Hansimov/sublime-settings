@@ -9,8 +9,12 @@
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_white_space": "all",
 	"expand_tabs_on_save": true,
-	"font_face": "Consolas-with-Yahei",
-	"font_size": 14,
+	"font_face": "Consolas",
+	"font_options":
+	[
+		"bold"
+	],
+	"font_size": 15,
 	"highlight_line": true,
 	"ignored_packages":
 	[
