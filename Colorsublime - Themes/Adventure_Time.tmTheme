@@ -235,7 +235,7 @@
 				<key>foreground</key>
 				<string>#F5BB12</string>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 			</dict>
 		</dict>
 		<!-- Storage Scope -->
@@ -247,7 +247,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 				<key>foreground</key>
 				<string>#f25a55</string>
 			</dict>
@@ -260,7 +260,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 				<key>foreground</key>
 				<string>#D3422E</string>
 			</dict>
@@ -273,7 +273,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 				<key>foreground</key>
 				<string>#F5BB12</string>
 			</dict>
@@ -403,7 +403,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 				<key>foreground</key>
 				<string>#FFC620</string>
 			</dict>
@@ -467,7 +467,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 				<key>foreground</key>
 				<string>#4BAE16</string>
 			</dict>
