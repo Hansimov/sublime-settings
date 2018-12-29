@@ -1,0 +1,5 @@
+// These settings override both User and Default settings for the Markdown syntax
+{
+    "font_face":"微软雅黑",
+    "font_options":["bold"]
+}
