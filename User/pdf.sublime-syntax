@@ -1,0 +1,18 @@
+%YAML 1.2
+---
+name: PDF
+file_extensions: [pdf, ps]
+scope: source.pdf
+
+contexts:
+  main:
+    - match: \b(obj|endobj|stream|endstream|xref|trailer|startxref)\b
+      scope: keyword.control
+    - match: (<<|>>|\[|\])
+      scope: constant.numeric
+    - match: /(Type|Outlines|Catalog|Count|Pages*|Length|Parent|MediaBox|Contents|Kids*|Resources|ProcSet|Size|Root)
+      scope: storage.modifier
+    - match: '%.*$\n?'
+      scope: comment.block
+      # scope: constant.language
+

@@ -330,39 +330,6 @@
             "enabled": true
         },
         {
-            "name": "obj",
-            "open": "(obj)",
-            "close": "(endobj)",
-            "style": "round",
-            "scope_exclude": ["string", "comment", "keyword.operator"],
-            "language_filter": "whitelist",
-            "language_list": ["Plain Text"],
-            "plugin_library": "bh_modules.tags",
-            "enabled": true
-        },
-        {
-            "name": "stream",
-            "open": "(stream)",
-            "close": "(endstream)",
-            "style": "round",
-            "scope_exclude": ["string", "comment", "keyword.operator"],
-            "language_filter": "whitelist",
-            "language_list": ["Plain Text"],
-            "plugin_library": "bh_modules.tags",
-            "enabled": true
-        },
-        {
-            "name": "doubleangle",
-            "open": "(<<)",
-            "close": "(>>)",
-            "style": "angle",
-            "scope_exclude": ["string", "comment", "keyword.operator"],
-            "language_filter": "whitelist",
-            "language_list": ["HTML", "Plain Text", "HTML 5", "JSON", "XML", "PHP", "HTML+CFML", "ColdFusion", "ColdFusionCFC"],
-            "plugin_library": "bh_modules.tags",
-            "enabled": true
-        },
-        {
             "name": "round",
             "open": "(\\()",
             "close": "(\\))",
@@ -660,7 +627,42 @@
             "language_filter": "whitelist",
             "language_list": ["s840d_hmi"],
             "enabled": true
-        }
+        },
+
+        // PDF
+        {
+            "name": "obj",
+            "open": "(obj)",
+            "close": "(endobj)",
+            "style": "round",
+            "scope_exclude": ["string", "comment", "keyword.operator"],
+            "language_filter": "whitelist",
+            "language_list": ["PDF"],
+            "plugin_library": "bh_modules.tags",
+            "enabled": true
+        },
+        {
+            "name": "stream",
+            "open": "(stream)",
+            "close": "(endstream)",
+            "style": "round",
+            "scope_exclude": ["string", "comment", "keyword.operator"],
+            "language_filter": "whitelist",
+            "language_list": ["PDF"],
+            "plugin_library": "bh_modules.tags",
+            "enabled": true
+        },
+        {
+            "name": "doubleangle",
+            "open": "(<<)",
+            "close": "(>>)",
+            "style": "angle",
+            "scope_exclude": ["string", "comment", "keyword.operator"],
+            "language_filter": "whitelist",
+            "language_list": ["PDF"],
+            "plugin_library": "bh_modules.tags",
+            "enabled": true
+        },
     ],
 
     // `user_scope_brackets` and `user_brackets` will be appended
