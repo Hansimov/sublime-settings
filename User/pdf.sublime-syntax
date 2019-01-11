@@ -10,8 +10,10 @@ contexts:
       scope: keyword.control
     - match: (<<|>>|\[|\])
       scope: constant.numeric
-    - match: /(Type|Outlines|Catalog|Count|Pages*|Length|Parent|MediaBox|Contents|Kids*|Resources|ProcSet|Size|Root)
+      # scope: entity.name.tag
+    - match: /(Type|Outlines|Catalog|Count|Pages*|Length|Parent|MediaBox|Contents|Kids*|Resources|ProcSet|Size|Root|PDF)
       scope: storage.modifier
+      # scope: string
     - match: '%.*$\n?'
       scope: comment.block
       # scope: constant.language
