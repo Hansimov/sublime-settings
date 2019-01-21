@@ -653,6 +653,17 @@
             "enabled": true
         },
         {
+            "name": "BT",
+            "open": "(BT)",
+            "close": "(ET)",
+            "style": "round",
+            "scope_exclude": ["string", "comment", "keyword.operator"],
+            "language_filter": "whitelist",
+            "language_list": ["PDF"],
+            "plugin_library": "bh_modules.tags",
+            "enabled": true
+        },
+        {
             "name": "doubleangle",
             "open": "(<<)",
             "close": "(>>)",

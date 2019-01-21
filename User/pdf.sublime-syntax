@@ -6,15 +6,18 @@ scope: source.pdf
 
 contexts:
   main:
-    - match: \b(obj|endobj|stream|endstream|xref|trailer|startxref)\b
+    - match: \b(obj|endobj|stream|endstream|xref|trailer|startxref|BT|ET)\b
       scope: keyword.control
-    - match: (<<|>>|\[|\])
+    - match: (<<|>>|\[|\]|\(|\))
       scope: constant.numeric
       # scope: entity.name.tag
-    - match: /(Type|Outlines|Catalog|Count|Pages*|Length|Parent|MediaBox|Contents|Kids*|Resources|ProcSet|Size|Root|PDF)
+    # - match: /(Catalog|Contents|Count|Font|Kids*|Length|MediaBox|Name|Outlines|Parent|Pages*|PDF|ProcSet|Resources|Root|Size|Subtype|Text|Type)
+    - match: /\w+
       scope: storage.modifier
       # scope: string
     - match: '%.*$\n?'
       scope: comment.block
       # scope: constant.language
+
+
 
